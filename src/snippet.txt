@@ -1,0 +1,5 @@
+            int a = (Integer)s.pop();
+            char b = (char)a;
+            characters[i] = b;
+            System.out.print(b);
+            System.out.println();

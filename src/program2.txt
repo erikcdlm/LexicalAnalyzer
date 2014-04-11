@@ -1,0 +1,33 @@
+int gcd(int u, int v) {
+   if (v==0) return u;
+   else return gcd(v, u-u/v*v);
+   /* u-u/v*v == u mod v */
+}
+
+void sort(int a[], int low, int high) {
+   int i; int k;
+   i = low;
+   while (i<high-1) {
+      int t;
+      k = minloc(a,i,high);
+      t = a[k];
+      a[k] = a[i];
+      a[i] = t;
+      i = i + 1;
+   }
+}
+
+/* this is
+   a multi
+   line comment */
+
+void main() {
+   boolean flag = true; 
+   if(23void<>14) 
+      System.exit(0);
+   print_line(1+.23*1.2e+3);
+   int sum = 0;
+   for (int i=0; i<=10; i++)
+      sum += i;
+   // comment here /* and there
+}

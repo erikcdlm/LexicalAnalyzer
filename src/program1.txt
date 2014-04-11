@@ -1,0 +1,19 @@
+int fact(int x) {
+// recursive factorial function 
+   if (x>1) 
+      return x * fact(x-1);
+   else return 1;
+}
+
+void main(void) {
+/* CS 311 project 2
+A lexical analyzer */
+   int x, y, z;
+   double _funny;
+   x = get_integer();
+   _Funny = get_double();
+   if (x>0) 
+      print_line(fact(x));
+   else if (_funny!= 3.14) 
+      print_line(x*_funny);
+}
